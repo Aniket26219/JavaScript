@@ -1,7 +1,7 @@
 function prime(num){
-    if (1) {
+    if (num==1) {
         console.log("it is not a prime number");
-    } else if(2) {
+    } else if(num==2) {
         console.log("it is a prime number");
     }
     else{
@@ -14,4 +14,4 @@ function prime(num){
     }
 }
 
-prime(23);
+prime(2);
