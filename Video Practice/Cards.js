@@ -1,5 +1,5 @@
+var count=0;
 function cards(card){
-    var count=0;
     switch(card){
         case 2:
         case 3:
@@ -22,4 +22,5 @@ function cards(card){
     }
     return count + " " + holdbet;
 }
-console.log(cards('A'));
+cards(2); cards(6); cards('K'); cards('Q'); cards('A');
+console.log(cards(4));
