@@ -34,5 +34,6 @@ function updatecollection(id, property, value){
         record[id][property] = value;
     }
     return record;
+    
 }
 console.log(updatecollection("3","p languages",""))
