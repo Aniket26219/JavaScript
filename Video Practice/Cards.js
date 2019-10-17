@@ -21,6 +21,7 @@ function cards(card){
         holdbet="bet";
     }
     return count + " " + holdbet;
+    
 }
 cards(2); cards(6); cards('K'); cards('Q'); cards('A');
 console.log(cards(4));
